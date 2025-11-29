@@ -90,7 +90,6 @@ const getViewProduct = async (req: Request, res: Response) => {
     factoryOptions: factoryOptions,
     targetOptions: targetOptions,
     errors: errors,
-    baseUrl: process.env.BASE_URL || "http://localhost:8080",
   }); // hoặc res.status(400).send("Missing user id");
 };
 
