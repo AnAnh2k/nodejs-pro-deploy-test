@@ -15,7 +15,7 @@ const getDashboardPage = async (req: Request, res: Response) => {
   const info = await getDashBoardInfo();
   return res.render("admin/dashboard/show", { info });
 };
-
+//fsdfsd
 const getAdminUserPage = async (req: Request, res: Response) => {
   //get user
   const { page } = req.query;
