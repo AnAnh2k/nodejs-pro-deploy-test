@@ -40,7 +40,7 @@
   "scripts": {
     "predev": "kill-port 8080",
     "dev": "nodemon",
-    "build": "tsc && tsc-alias && copyfiles -u 1 src/views/**/* dist/views",
+    "build": "tsc && tsc-alias && copyfiles src/views/**/* dist/views",
     "start": "node dist/app.js",
     "start:debug": "nodemon --inspect=9229 -e ts,ejs --exec node -r ts-node/register -r tsconfig-paths/register ./src/app.ts"
   },
