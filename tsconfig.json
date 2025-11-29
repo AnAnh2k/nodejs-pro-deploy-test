@@ -9,6 +9,7 @@
     "rootDir": "src",
     "baseUrl": ".",
     "paths": {
+      "src/*": ["./src/*"], // thêm dòng này
       "config/*": ["./src/config/*"],
       "controllers/*": ["./src/controllers/*"],
       "modules/*": ["./src/modules/*"],
